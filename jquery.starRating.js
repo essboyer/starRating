@@ -18,7 +18,7 @@ jQuery.fn.starRating = function(number) {
         count = number.split(".")[0];
     }
     else {
-		count = number;
+        count = number;
     }
     
     for (var i = 1; i <= 5; i++) {
@@ -27,13 +27,13 @@ jQuery.fn.starRating = function(number) {
         }
         
         if (i > count) {
-			if (addHalf) {
-				$starbox.append('<i class="fa fa-star-half"></i>');
-				addHalf = false;
-				continue;
-			}
-			
-			$starbox.append('<i class="fa fa-star-o"></i>');
+            if (addHalf) {
+                $starbox.append('<i class="fa fa-star-half"></i>');
+                addHalf = false;
+                continue;
+            }
+            
+            $starbox.append('<i class="fa fa-star-o"></i>');
         }
     }
 
