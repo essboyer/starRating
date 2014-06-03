@@ -1,11 +1,9 @@
 # Star Rating
--------------
 
 A quick 'n dirty jQuery plugin to generate a 0-5 star rating. 
 It uses &amp; requires [FontAwesome!](http://fortawesome.github.io/Font-Awesome/) webfont to generate the stars.
 
 # Usage
--------
 
 ```HTML
 
@@ -15,3 +13,8 @@ It uses &amp; requires [FontAwesome!](http://fortawesome.github.io/Font-Awesome/
 $("#stars").starRating(4.5);
 
 ```
+
+# Requirements
+
+-[jQuery](http://jquery.com)
+-[FontAwesome!](http://fortawesome.github.io/Font-Awesome/)
