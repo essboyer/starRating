@@ -16,5 +16,5 @@ $("#stars").starRating(4.5);
 
 # Requirements
 
--[jQuery](http://jquery.com)
--[FontAwesome!](http://fortawesome.github.io/Font-Awesome/)
+* [jQuery](http://jquery.com)
+* [FontAwesome!](http://fortawesome.github.io/Font-Awesome/)
